@@ -88,7 +88,7 @@ export function Footer() {
                 </div>
 
                 <div className="mt-8 flex flex-col gap-3 border-t border-border/60 pt-6 text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
-                    <p>&copy; {year} Luma Studio</p>
+                    <p>&copy; {year} PixelForge Studio</p>
                     <p>Private by default. Curated by design.</p>
                 </div>
             </div>
