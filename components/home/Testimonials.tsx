@@ -5,6 +5,7 @@ import { TESTIMONIAL_COLUMNS } from "@/lib/constants";
 import { motion } from "motion/react";
 import { TestimonialsColumn } from "./TestimonialsColumns";
 
+
 const [firstColumn, secondColumn, thirdColumn] = TESTIMONIAL_COLUMNS;
 
 const Testimonials = () => {
