@@ -113,7 +113,7 @@ export function HomeHeroSection() {
                         </Show>
 
                         <Button asChild variant="ghost" className="hero-pill home-btn-hero-ghost">
-                            <a href="#how-it-works">Watch 2min demo</a>
+                            <a href="#how-it-works">See how it works</a>
                         </Button>
                     </div>
                 </div>

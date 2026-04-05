@@ -8,6 +8,7 @@ import {
   ZapIcon,
 } from "lucide-react";
 
+
 /** MIME types accepted for user source images (upload + generation API). */
 export const ACCEPTED_SOURCE_IMAGE_MIME_TYPES = new Set(["image/jpeg", "image/png", "image/webp"]);
 
@@ -41,8 +42,6 @@ export const CENTER_NAV_LINKS = [
   { label: "Pricing", href: "#pricing" },
   { label: "Styles", href: "#styles", chevron: true },
   { label: "How it works", href: "#how-it-works" },
-  { label: "Privacy", href: "/privacy" },
-  { label: "FAQ", href: "#faq" },
 ] as const;
 
 export const FOOTER_QUICK_LINKS = [
@@ -70,64 +69,63 @@ export type MarketingTestimonial = {
 export const TESTIMONIALS: MarketingTestimonial[] = [
   {
     text: "This workflow completely changed how quickly we can turn original photos into polished campaign-ready visuals.",
-    image:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80",
+    image: "/test1.avif",
     name: "Briana Patton",
     role: "Operations Manager",
   },
   {
     text: "The interface is clear, the outputs are consistent, and the rollout across our team was surprisingly effortless.",
     image:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
+      "/test2.avif",
     name: "Bilal Ahmed",
     role: "IT Manager",
   },
   {
     text: "Support has been thoughtful from the start, and the product already feels much more refined than most creative AI tools.",
     image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=200&q=80",
+      "/test3.avif",
     name: "Saman Malik",
     role: "Customer Support Lead",
   },
   {
     text: "It preserves the essence of our source images while still giving every result a more elevated and art-directed finish.",
     image:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80",
+      "/test4.avif",
     name: "Omar Raza",
     role: "CEO",
   },
   {
     text: "We saw immediate time savings once it became part of our content pipeline, especially for rapid visual explorations.",
     image:
-      "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=200&q=80",
+      "/test5.avif",
     name: "Zainab Hussain",
     role: "Project Manager",
   },
   {
     text: "The outputs are premium enough for client reviews, which has helped us move from concept to approval much faster.",
     image:
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=200&q=80",
+      "/test6.avif",
     name: "Aliza Khan",
     role: "Business Analyst",
   },
   {
     text: "It gave our team a cleaner way to experiment with multiple directions without compromising subject fidelity.",
     image:
-      "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?auto=format&fit=crop&w=200&q=80",
+      "/test7.avif",
     name: "Farhan Siddiqui",
     role: "Marketing Director",
   },
   {
     text: "The experience feels premium end to end, and our customers noticed the jump in quality immediately.",
     image:
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80",
+      "/test8.avif",
     name: "Sana Sheikh",
     role: "Sales Manager",
   },
   {
     text: "The product helped us improve output quality and consistency while still giving the team room to move quickly.",
     image:
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=200&q=80",
+      "/test9.avif",
     name: "Hassan Ali",
     role: "E-commerce Manager",
   },
