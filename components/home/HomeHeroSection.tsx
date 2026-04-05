@@ -28,7 +28,7 @@ export function HomeHeroSection() {
                         <span className="relative mr-2 flex h-10 w-10 shrink-0 items-center justify-center overflow-visible">
                             <Image
                                 src="/logo.png"
-                                alt="Luma Studio"
+                                alt="PixelForge Studio"
                                 width={72}
                                 height={72}
                                 className="h-10 w-10 max-h-none max-w-none origin-left scale-[1.55] object-cover"
@@ -124,7 +124,7 @@ export function HomeHeroSection() {
                             <div className="hero-demo-glass-inner home-demo-inner">
                                 <Image
                                     src="/demo.png"
-                                    alt="Luma Studio workspace showing upload, curated styles, and a before-and-after preview"
+                                    alt="PixelForge Studio workspace showing upload, curated styles, and a before-and-after preview"
                                     width={3290}
                                     height={1872}
                                     className="h-auto w-full"

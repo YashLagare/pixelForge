@@ -28,7 +28,7 @@ async function StudioPage() {
             <span className="relative mr-2 flex h-10 w-10 shrink-0 items-center justify-center overflow-visible">
               <Image
                 src="/logo.png"
-                alt="Luma Studio"
+                alt="PixelForge Studio"
                 width={72}
                 height={72}
                 className="mt-2 mr-2 max-h-none max-w-none origin-left scale-[1.55] object-cover"

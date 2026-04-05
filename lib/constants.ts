@@ -1,11 +1,11 @@
 import type { LucideIcon } from "lucide-react";
 import {
-    CameraIcon,
-    ImagePlusIcon,
-    PaletteIcon,
-    SparklesIcon,
-    Wand2Icon,
-    ZapIcon,
+  CameraIcon,
+  ImagePlusIcon,
+  PaletteIcon,
+  SparklesIcon,
+  Wand2Icon,
+  ZapIcon,
 } from "lucide-react";
 
 /** MIME types accepted for user source images (upload + generation API). */
@@ -163,7 +163,7 @@ export const HOW_IT_WORKS_STEPS: HowItWorksStep[] = [
   {
     step: "Step 3",
     title: "Generate the transformation",
-    body: "Luma restyles the image while protecting composition, identity cues, and the small details that matter.",
+    body: "PixelForge restyles the image while protecting composition, identity cues, and the small details that matter.",
     icon: SparklesIcon,
     featured: true,
   },
