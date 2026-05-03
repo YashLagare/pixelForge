@@ -1,4 +1,4 @@
-# PROJECT_DOCUMENTATION.txt
+# PROJECT_DOCUMENTATION
 
 ## 1. Project Overview
 
