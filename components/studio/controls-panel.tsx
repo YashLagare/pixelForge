@@ -169,9 +169,19 @@ export function StudioControlsPanel() {
                 </p>
             </div>
 
-            <p className="mt-6 max-w-2xl text-xl leading-8 text-muted-foreground">
-                A first version will be generated right away. You can refine it further if needed.
-            </p>
+            <div className="mt-6 rounded-[1.4rem] border border-yellow-500/20 bg-yellow-500/10 px-5 py-4">
+                <p className="text-sm leading-6 text-yellow-100">
+                    ⚠️ Image generation is temporarily unavailable because the OpenAI API quota for this demo has been exhausted.
+                    <br />
+                    <span className="text-yellow-200/80">
+                        All other features are working normally.
+                    </span>
+                </p>
+            </div>
+
+            {/* <p className="mt-6 max-w-2xl text-xl leading-8 text-muted-foreground"> */}
+            {/* A first version will be generated right away. You can refine it further if needed. */}
+            {/* </p> */}
 
             <GenerateButton disabled={isGenerateDisabled} isLoading={isLoading} />
 
