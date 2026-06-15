@@ -1,6 +1,6 @@
 # PROJECT_DOCUMENTATION
 
-## Project Name
+## Project Name PixelForge
 
 ### Project Description
 PixelForge is an AI-powered image restyling platform. Users upload a source image, select a curated artistic style preset, choose an image-edit capable OpenAI model, and generate a transformed result through server-side image edits.
@@ -21,7 +21,8 @@ Many users want stylized, “gallery-ready” images but don’t want to manuall
 - Uses ImageKit for image storage and OpenAI for image editing
 
 Project Screenshot Placeholder:
-[INSERT_PROJECT_COVER_SCREENSHOT_HERE]
+<img width="1902" height="912" alt="image" src="https://github.com/user-attachments/assets/7dd1f6a8-c150-4c7e-85fa-4e67bbab0ae5" />
+
 
 ---
 
