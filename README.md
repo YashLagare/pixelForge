@@ -20,7 +20,6 @@ Many users want stylized, “gallery-ready” images but don’t want to manuall
 - Generation history stored per authenticated user
 - Uses ImageKit for image storage and OpenAI for image editing
 
-Project Screenshot Placeholder:
 <img width="1902" height="912" alt="image" src="https://github.com/user-attachments/assets/7dd1f6a8-c150-4c7e-85fa-4e67bbab0ae5" />
 
 
