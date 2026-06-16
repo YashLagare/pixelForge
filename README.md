@@ -123,18 +123,12 @@ Many users want stylized, “gallery-ready” images but don’t want to manuall
 - **Related Components:**
   - `proxy.ts` (Clerk middleware matcher and `auth.protect()` for `/studio`)
 
-Feature Screenshot Placeholder:
-[INSERT_FEATURE_SCREENSHOT_HERE]
-
 ## Feature 2: Image Upload via ImageKit Signed Upload Credentials
 - **Purpose:** Enable secure client uploads to ImageKit.
 - **User Benefit:** Fast uploads and CDN-hosted image URLs.
 - **Related Components:**
   - `app/api/upload/route.ts` (issues `token`, `expire`, `signature`)
   - `context/StudioWorkbenchContext.tsx` (calls `/api/upload` and uploads through `@imagekit/next`)
-
-Feature Screenshot Placeholder:
-[INSERT_FEATURE_SCREENSHOT_HERE]
 
 ## Feature 3: Curated Style Presets
 - **Purpose:** Map style selection to a server-side prompt.
@@ -144,9 +138,6 @@ Feature Screenshot Placeholder:
   - `components/studio/controls-panel.tsx` (style selection UI)
   - `lib/style-presets.ts` `getStylePreset()` used by generation route
 
-Feature Screenshot Placeholder:
-[INSERT_FEATURE_SCREENSHOT_HERE]
-
 ## Feature 4: OpenAI Image Edit Generation
 - **Purpose:** Generate a stylized result from an uploaded image using OpenAI image-edit capable models.
 - **User Benefit:** One-click generation.
@@ -155,9 +146,6 @@ Feature Screenshot Placeholder:
   - `lib/openai.ts` (creates OpenAI provider using `OPEN_AI_API_KEY`)
   - `lib/openai-image-models.ts` (supported models: `gpt-image-1`, `gpt-image-1.5`)
 
-Feature Screenshot Placeholder:
-[INSERT_FEATURE_SCREENSHOT_HERE]
-
 ## Feature 5: Monthly Generation Quotas by Plan
 - **Purpose:** Limit expensive AI usage per user monthly.
 - **User Benefit:** Prevents unlimited generation; enforces plan-based limits.
@@ -165,9 +153,6 @@ Feature Screenshot Placeholder:
   - `lib/generation-quota.ts` (plan keys and limits)
   - `DB/generations.ts` (`countGenerationsSince`)
   - `app/api/generate-image/route.ts` (uses `getMonthlyGenerationLimit` and returns 429 when exceeded)
-
-Feature Screenshot Placeholder:
-[INSERT_FEATURE_SCREENSHOT_HERE]
 
 ## Feature 6: Generation History & Downloads
 - **Purpose:** Persist and display past generations.
@@ -178,9 +163,6 @@ Feature Screenshot Placeholder:
   - `components/studio/preview-panel.tsx` (history cards grid)
   - `components/studio/history-preview-dialog.tsx` (modal preview + download)
   - `components/studio/workbench-ui.tsx` (download helper UI)
-
-Feature Screenshot Placeholder:
-[INSERT_FEATURE_SCREENSHOT_HERE]
 
 ---
 
