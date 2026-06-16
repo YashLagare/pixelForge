@@ -70,9 +70,6 @@ Many users want stylized, “gallery-ready” images but don’t want to manuall
 - **Business Use Case:** Convert user photos to stylistic variants with consistent curated styles and stored history.
 - **Target Audience:** Authenticated end users of the studio.
 
-Project Screenshot Placeholder:
-[INSERT_PROJECT_OVERVIEW_SCREENSHOT_HERE]
-
 ---
 
 # 3. TECHNOLOGY STACK
