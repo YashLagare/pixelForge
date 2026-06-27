@@ -28,7 +28,7 @@ Many users want stylized, “gallery-ready” images but don’t want to manuall
 # 1. EXECUTIVE SUMMARY
 
 - **Project Purpose:** Provide an AI studio for turning an uploaded image into a stylized result using OpenAI image edits.
-- **Core Features (from code):**
+- **Core Features:**
   1. Clerk-based authentication and protected studio route
   2. Image upload to ImageKit using short-lived upload credentials
   3. Curated style presets mapped to OpenAI prompts
@@ -36,7 +36,7 @@ Many users want stylized, “gallery-ready” images but don’t want to manuall
   5. Persisted generation history in a PostgreSQL database (Drizzle ORM)
   6. Monthly generation quotas based on Clerk subscription plan
   7. Sentry integration for error reporting and logging
-- **Technology Summary (detected from code):**
+- **Technology Summary:**
   - Frontend: Next.js App Router (React 19), Tailwind CSS, Radix UI, Clerk React components
   - Backend: Next.js route handlers (server actions via API routes), Node runtime
   - Data: PostgreSQL with Drizzle ORM
