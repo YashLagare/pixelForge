@@ -1,6 +1,4 @@
-# PROJECT_DOCUMENTATION
-
-## Project Name PixelForge
+# PixelForge DOCUMENTATION
 
 ### Project Description
 PixelForge is an AI-powered image restyling platform. Users upload a source image, select a curated artistic style preset, choose an image-edit capable OpenAI model, and generate a transformed result through server-side image edits.
@@ -114,8 +112,6 @@ Many users want stylized, “gallery-ready” images but don’t want to manuall
 ---
 
 # 4. FEATURES LIST
-
-> Note: Features listed here are strictly based on implemented code/routes/components discovered so far.
 
 ## Feature 1: Protected Studio Route
 - **Purpose:** Restrict studio access to authenticated users.
@@ -303,10 +299,6 @@ Fields (from schema):
 | model | text | Not null |
 | promptUsed | text | Not null |
 | createdAt | timestamp (tz) | defaultNow(), not null |
-
-Relationships:
-- No explicit foreign keys or relations defined in Drizzle schema; relationship is implicit via `clerkUserId`.
-
 ---
 
 # 8. ENTITY RELATIONSHIP DIAGRAM (ERD)
@@ -530,8 +522,6 @@ Re-render preview and history UI
 ---
 
 # 14. API DOCUMENTATION
-
-> Endpoints documented from implemented route handlers.
 
 | Method | Endpoint | Description | Auth Required | Request Body | Response |
 | ------ | -------- | ----------- | ------------- | ------------ | -------- |
