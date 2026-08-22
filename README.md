@@ -279,8 +279,6 @@ Communication Model:
 
 # 7. DATABASE DESIGN
 
-> Only one database entity is defined in visible code.
-
 ## generations
 - **Purpose:** Store per-user generation history and ImageKit URLs.
 - **Location:** `DB/schema.ts`
