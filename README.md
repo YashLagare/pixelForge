@@ -551,5 +551,4 @@ Re-render preview and history UI
 { "error": "Unauthorized" }
 ```
 
-**
 Written By Yash
